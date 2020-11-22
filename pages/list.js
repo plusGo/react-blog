@@ -3,10 +3,10 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import {Col, Menu, Row} from 'antd'
 
-const Home = () => (
+const List = () => (
     <div>
         <Head>
-            <title>Home</title>
+            <title>List</title>
         </Head>
         <Header/>
         <Row className="comm-main" type="flex" justify="center">
